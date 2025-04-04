@@ -1,4 +1,6 @@
 package proxy;
 
-public class Image {
+public interface Image {
+    void displayThumbnail();
+    void displayFullImage();
 }
