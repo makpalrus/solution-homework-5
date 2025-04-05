@@ -1,4 +1,6 @@
 package flyweight;
 
-public class Marker {
+public interface Marker {
+    void display(int x, int y);
 }
+
